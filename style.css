@@ -1,0 +1,46 @@
+body,
+html {
+  background-color: black;
+}
+body {
+  color: white;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  /* needed to take up full page height */
+  margin: 0 8px;
+}
+
+header,
+main,
+footer {
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  justify-content: space-around;
+}
+footer {
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+#logo {
+  font-size: 2rem;
+}
+
+main {
+  justify-content: space-around;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side {
+  font-size: 3rem;
+}
