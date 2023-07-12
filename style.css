@@ -35,6 +35,13 @@ main {
   justify-content: space-around;
 }
 
+.bio {
+  display: block;
+  width: 300px;
+  margin: 0px auto;
+  font-size: 2rem;
+}
+
 .left-side {
   display: flex;
   align-items: center;
