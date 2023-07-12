@@ -32,21 +32,21 @@ footer {
 }
 
 /* NAV LINKS */
-header > a:not(a:nth-child(3)) {
-  padding: 2rem 4rem;
+header>a:not(a:nth-child(3)) {
+  /* padding: 2rem 4rem; */
   border-radius: 1rem;
   transition: background-color 1.6s ease-in-out;
-  color: inherit; /* blue colors for links too */
-  text-decoration: none; /* no underline */
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: none;
+  /* no underline */
 }
 
-header > a:hover:not(a:nth-child(3)) {
+header>a:hover:not(a:nth-child(3)) {
   background-color: rgb(49, 46, 46);
 }
 
 /* NAV LOGO */
-header > a:nth-child(3) {
-}
+header>a:nth-child(3) {}
 
-header > a:nth-child(3):hover {
-}
+header>a:nth-child(3):hover {}
