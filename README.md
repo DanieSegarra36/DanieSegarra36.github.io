@@ -1,7 +1,7 @@
-# How to host your website on GitHub
+# things i used to get this done
 
-Create a new repo named "yourUsername.github.io"
-
-Make sure to replace "yourUsername" with your username
-
-Upload a README.md or HTML/CSS/Javascript and the page should load in about 10 mins
+https://www.geeksforgeeks.org/how-to-create-a-gradient-shadow-using-css/#
+https://codepen.io/chriscoyier/pen/nKpRBq
+https://barba.js.org/docs/getstarted/basic-transition/
+https://greensock.com/docs/v3/GSAP/Timeline
+https://formspree.io/forms/xgejvblv/integration
