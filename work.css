@@ -54,10 +54,6 @@ li {
   font-size: clamp(1.2rem, 0.6091rem + 3.7818vw, 2.5rem);
 }
 
-li:hover {
-  /*   z-index: 100; */
-}
-
 li>a {
   height: 100%;
   padding: 0 1rem;
@@ -103,7 +99,7 @@ li:nth-child(2)>a:hover::after {
   background: linear-gradient(to bottom right, #a4ffd60d, 80%, #3a4442);
 }
 
-/* li:nth-child(1):before, */
+li:nth-child(1):before,
 li:nth-child(1)>a {
   background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.edutopia.org%2Fstyles%2Fresponsive_2880px_original%2Fs3%2Fmasters%2F2018-11%2FiStock-1005285232_master.jpg&f=1&nofb=1&ipt=5299c124ebbf7cd9888f0e589459b65d3b66549803023b6f91550e03881bfdaf&ipo=images');
   background-position: center;
@@ -133,4 +129,10 @@ li:nth-child(2):before {
 mark {
   padding: .5rem 1rem;
   background-color: white;
+}
+
+li:hover {
+  z-index: 100;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
