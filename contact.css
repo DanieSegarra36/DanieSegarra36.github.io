@@ -61,6 +61,10 @@ body,
 }
 
 .container {
+  width: 60%;
+  max-width: 350px;
+  position: relative;
+  left: 10px;
   border: 8px solid #2a69a1;
   box-shadow: 3px 3px .6rem #ec5353, -1em 0 .4em #919118;
   /*   border-image: linear-gradient(to bottom, #4277db 90%, #f6b73c00) 30;
