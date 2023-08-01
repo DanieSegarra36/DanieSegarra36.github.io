@@ -94,6 +94,18 @@ button {
   margin: 0 auto;
 }
 
+body,
+html {
+  background-color: black;
+}
+
+body {
+  color: white;
+  height: 100vh;
+  /* needed to take up full page height */
+  margin: 0 8px;
+}
+
 header,
 footer {
   display: flex;
@@ -117,7 +129,7 @@ footer {
 
 /* NAV LINKS */
 header>a:not(a:nth-child(3)) {
-  /* padding: 2rem 4rem; */
+  padding: 10px;
   border-radius: 1rem;
   transition: background-color 1.6s ease-in-out;
   /*   color: inherit; */
@@ -134,3 +146,19 @@ header>a:hover:not(a:nth-child(3)) {
 header>a:nth-child(3) {}
 
 header>a:nth-child(3):hover {}
+
+@media screen and (min-width: 500px) and (max-width: 799px) {
+  header>a:not(a:nth-child(3)) {
+    padding: 1rem 2rem;
+  }
+
+  body {
+    /*     background-color: blue; */
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header>a:not(a:nth-child(3)) {
+    padding: 2rem 4rem;
+  }
+}
