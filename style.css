@@ -5,14 +5,14 @@ html {
 
 body {
   color: white;
-  height: 100vh;
+  /*! height: 100vh; */
   display: grid;
   grid-template-rows: auto 1fr auto;
   /* needed to take up full page height */
   margin: 0 8px;
 }
 
-header,
+nav,
 main,
 footer {
   display: flex;
@@ -21,8 +21,9 @@ footer {
   justify-content: center;
 }
 
-header {
+nav {
   justify-content: space-around;
+  padding: 0.8rem 0rem;
 }
 
 footer {
@@ -68,8 +69,13 @@ svg#workers {
   width: 100%;
   height: fit-content;
   max-width: 500px;
+  padding-bottom: 15px;
 }
 
 p {
   max-width: 980px;
+}
+
+lottie-player {
+  width: 36px;
 }
