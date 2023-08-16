@@ -85,7 +85,7 @@ nav svg {
   /* Total length of the path */
   stroke-dashoffset: 100;
   /* Initial dash offset, hides the entire path */
-  animation: draw 10s cubic-bezier(.4, 1.18, .74, .72) forwards infinite;
+  animation: draw 10s cubic-bezier(.22, .61, .36, 1) forwards infinite;
   /* Animate the drawing using the 'draw' animation */
   opacity: .7;
 }
