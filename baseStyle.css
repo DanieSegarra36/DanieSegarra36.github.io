@@ -90,6 +90,7 @@ nav svg {
   opacity: .7;
 }
 
+nav>a:nth-child(3):active #animatedCurve,
 nav>a:nth-child(3):hover #animatedCurve {
   opacity: 1;
   fill: burlywood;
