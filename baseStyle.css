@@ -35,7 +35,7 @@ footer {
 nav>a:not(a:nth-child(3)) {
   padding: 10px;
   border-radius: 1rem;
-  transition: background-color 1.6s ease-in-out;
+  transition: background-color .6s ease-in-out;
   color: inherit;
   /* blue colors for links too */
   text-decoration: none;
